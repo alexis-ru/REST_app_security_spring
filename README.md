@@ -1,6 +1,9 @@
 Это REST-приложение для цветочного магазина с авторизацией
 
+
+
 Примеры:
+
 curl localhost:8080/api/flowers/ -u admin:password
 curl localhost:8080/api/flowers/ -u user:password
 
