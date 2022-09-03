@@ -1,13 +1,10 @@
  ## Это REST-приложение для цветочного магазина с авторизацией
 
+Реализованы основные HTTP-запросы (GET-, POST- и DELETE-запросы) позволяющие произвести все CRUD-операции
 
- **Примеры запросов:**
-```sh
-curl localhost:8080/api/flowers/ -u admin:password
-```
-```sh
-curl localhost:8080/api/flowers/ -u user:password
-```
-```sh
-curl -X POST localhost:8080/api/flowers/add -H "Content-type:application/json" -d {\"name\":\"Ромашка\",\"type\":\"Полевые\",\"sel_price\":\8.88\,\"purch_price\":\5.1\} -u user:password
-```
+Данное ПО написано на:
+
+1. Java Spring Boot v.2.7.1 (backend)
+2. Используется СУБД Postgres
+
+Данное ПО распространяется по лицензии Линукс и с принципом AS IS - т.е. без гарантий и ответственности...
